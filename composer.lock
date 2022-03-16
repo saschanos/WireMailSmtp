@@ -1,0 +1,11 @@
+{
+  "name": "horst-n/wire-mail-smtp",
+  "type": "pw-module",
+  "authors": [
+    {
+      "name": "Horst Nogajski",
+      "email": "info@nogajski.de"
+    }
+  ],
+  "require": {}
+}
