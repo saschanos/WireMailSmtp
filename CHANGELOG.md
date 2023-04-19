@@ -1,5 +1,14 @@
 # Changelog
 
+### 0.6.3 - 2023-03-09
+- PR to support "Enforce sender in emails", from @eerojaaskelainen, many thanks!
+
+### 0.6.2 - 2023-03-08
+- PHP 8.2 support, minor fix of deprecated creation of dynamic property smtp_class::$pending_sender
+
+### 0.6.1 - 2023-03-03
+- PHP 8.1 / 8.2 support by PR from @romaincazier (@monollonom in PW forum!)
+
 ### 0.6.0 - 2021-04-15
 - PHP 8 support
 
@@ -46,7 +55,7 @@
 - fixed date string to follow strict RFC2822, See [Issue 5](https://github.com/horst-n/WireMailSmtp/issues/5) - Many thanks to @selsermedia!
 
 ### 0.2.0 - 2016-02-15
-- added support for Selfsigned Certificates, a contribution from @flydev, [See this post](https://processwire.com/talk/topic/5704-wiremailsmtp/page-5#entry113290) - Many thanks!
+- added support for Selfsigned Certificates, a contribution from @flydev, [See this post](https://processwire.com/talk/topic/5704-wiremailsmtp/page/4/#comment-113290) - Many thanks!
 
 ### 0.1.14
 - changed smtp class to new version 1.50 to solve a bug with two debug messages echoed out, even if debug was set to false
